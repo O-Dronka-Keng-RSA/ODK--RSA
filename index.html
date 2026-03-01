@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O DRONKA KENG? RSA | The Pretoria Syndicate | High-End Brutalist Streetwear</title>
+    
+    <meta name="description" content="O DRONKA KENG? RSA (ODK-RSA). High-end, brutalist streetwear designed in Pretoria, Gauteng (012). Defining the South African hustle. 'Day Zero' Collection now live. Guaranteed 24HR PTA Delivery. Pick your poison.">
+    <meta name="keywords" content="O Dronka Keng RSA, South African Streetwear, Pretoria fashion, brutalist design, techwear RSA, limited edition streetwear, 012 hustle, high-end hoodie South Africa, oversized tee RSA, O Dronka Keng meaning, Tshwane fashion drop, high-quality graphic tee RSA">
+    <meta name="author" content="O Dronka Keng? RSA Syndicate Enterprise">
+    <link rel="canonical" href="https://O-Dronka-Keng-RSA.github.io/odk-rsa/"> <meta property="og:title" content="O DRONKA KENG? RSA | Pretoria Syndicate Official">
+    <meta property="og:description" content="Defined in Pretoria (012). Brutalist Streetwear Armor. Join the Syndicate for Day Zero access. Pick your poison.">
+    <meta property="og:image" content="https://odronkakeng-rsa.netlify.app/img/hero-og.png"> 
+    <meta property="og:url" content="Https://www.facebook.com/ODronkaKengFam"> <meta property="og:type" content="website">
+
+    <style>
+        /* --- CORE SYNDICATE AESTHETIC --- */
+        :root {
+            --vantablack: #010101; /* Deepest black */
+            --acidgreen: #BEFD01; /* Pulsating electric green */
+            --concrete: #999999;
+            --white: #FFFFFF;
+            --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            --font-brutalist: 'Courier New', Courier, monospace; /* For technical/logo text */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Prevent layout shift during fast load (CDN Optimized) */
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--vantablack);
+            color: var(--white);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .brutalist-text {
+            font-family: var(--font-brutalist);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .highlight {
+            color: var(--acidgreen);
+        }
+
+        /* --- HEADER / NAV --- */
+        header {
+            background-color: rgba(1, 1, 1, 0.9);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(190, 253, 1, 0.2);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--acidgreen);
+        }
+
+        .logo-sub {
+            font-size: 12px;
+            color: var(--white);
+            display: block;
+            margin-top: -5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: var(--acidgreen);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /* Visual Bridge: Uses the specific hero background visual from image_1.png/Netlify */
+            background-image: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.9)), url('https://odronkakeng-rsa.netlify.app/img/hero-og.png'); 
+            background-size: cover;
+            background-position: center;
+            margin-top: 80px; /* Offset for fixed header */
+        }
+
+        .hero-content h1 {
+            font-size: 64px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            color: var(--concrete);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: transparent;
+            border: 2px solid var(--acidgreen);
+            color: var(--acidgreen);
+            padding: 15px 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: var(--font-brutalist);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: var(--acidgreen);
+            color: var(--vantablack);
+        }
+
+        /* --- MANIFESTO SECTION --- */
+        .manifesto {
+            padding: 100px 0;
+            background-color: #050505;
+            border-top: 1px solid rgba(190, 253, 1, 0.1);
+            border-bottom: 1px solid rgba(190, 253, 1, 0.1);
+        }
+
+        .manifesto-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .manifesto-title h2 {
+            font-size: 36px;
+            text-transform: uppercase;
+            line-height: 1.2;
+            color: var(--acidgreen);
+        }
+
+        .manifesto-text p {
+            font-size: 18px;
+            color: var(--concrete);
+            margin-bottom: 20px;
+        }
+
+        /* --- VAULT / PRODUCT SECTION (Pretoria Syndicate Day Zero Drop) --- */
+        .vault {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 48px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .product-card {
+            background-color: #080808;
+            border: 1px solid #1a1a1a;
+            padding: 20px;
+            transition: border-color 0.3s ease;
+            position: relative; /* For badges and scarcity overlays */
+        }
+
+        .product-card:hover {
+            border-color: rgba(190, 253, 1, 0.5);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 350px;
+            background-color: #111;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border: 1px solid #1a1a1a;
+            /* Visual Bridge: Uses the specific product visual asset from image_1.png/Netlify */
+            background-image: url('https://odronkakeng-rsa.netlify.app/img/product-preview.png'); 
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* Simulating the grid layout of image_1.png visual */
+        .prod-img-1 { background-position: left center; } /* Simulate ODK-01 */
+        .prod-img-2 { background-position: center center; } /* Simulate ODK-02 */
+        .prod-img-3 { background-position: right center; } /* Simulate ODK-03 */
+
+        .product-details h3 {
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            color: var(--white);
+        }
+
+        .product-meta {
+            font-family: var(--font-brutalist);
+            font-size: 12px;
+            color: var(--concrete);
+            margin-bottom: 15px;
+        }
+
+        .product-price {
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--acidgreen);
+            margin-bottom: 10px;
+        }
+
+        /* Dynamic Scarcity Overlays (image_6.png A9 optimization) */
+        .scarcity-overlay {
+            display: inline-block;
+            background-color: transparent;
+            color: var(--acidgreen);
+            border: 1px solid var(--acidgreen);
+            font-family: var(--font-brutalist);
+            font-size: 10px;
+            font-weight: bold;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        /* Verified Syndicate Review Module (Amazon Standard) */
+        .syndicate-review {
+            font-size: 12px;
+            color: var(--concrete);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        .poison-rating {
+            color: var(--acidgreen);
+            margin-bottom: 5px;
+        }
+
+        /* --- SYNDICATE SIGNUP SECTION (Indoctrination) --- */
+        .signup {
+            padding: 100px 0;
+            background-color: var(--acidgreen);
+            color: var(--vantablack);
+            text-align: center;
+        }
+
+        .signup-content h2 {
+            font-size: 48px;
+            text-transform: uppercase;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .signup-content p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            font-weight: bold;
+        }
+
+        .signup-form {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .signup-form input {
+            flex-grow: 1;
+            padding: 15px;
+            border: 2px solid var(--vantablack);
+            background-color: transparent;
+            font-family: var(--font-brutalist);
+            color: var(--vantablack);
+            font-weight: bold;
+        }
+
+        .signup-form input::placeholder {
+            color: rgba(1, 1, 1, 0.6);
+        }
+
+        .signup-form .btn-dark {
+            background-color: var(--vantablack);
+            color: var(--acidgreen);
+            border: 2px solid var(--vantablack);
+        }
+
+        .signup-form .btn-dark:hover {
+            background-color: transparent;
+            color: var(--vantablack);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            padding: 50px 0;
+            background-color: var(--vantablack);
+            text-align: center;
+            border-top: 1px solid rgba(190, 253, 1, 0.1);
+        }
+
+        .footer-logo {
+            font-size: 20px;
+            color: var(--acidgreen);
+            margin-bottom: 10px;
+        }
+
+        .footer-meta {
+            font-family: var(--font-brutalist);
+            font-size: 12px;
+            color: var(--concrete);
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a:hover {
+            color: var(--acidgreen);
+        }
+
+        /* --- MOBILE RESPONSIVENESS (RSA Standard) --- */
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 40px; }
+            .nav-links { display: none; } /* Simplified mobile nav needed */
+            .manifesto-grid { grid-template-columns: 1fr; text-align: center; }
+            .signup-form { flex-direction: column; }
+            .section-header h2 { font-size: 36px; }
+            .product-image { height: 250px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo brutalist-text">
+                O DRONKA KENG?
+                <span class="logo-sub brutalist-text">RSA Syndicate | PTA (Enterprise)</span>
+            </div>
+            <nav>
+                <ul class="nav-links brutalist-text">
+                    <li><a href="#manifesto">Manifesto</a></li>
+                    <li><a href="#vault">The Vault</a></li>
+                    <li><a href="#signup">Join Syndicate</a></li>
+                    <li><a href="Https://www.facebook.com/ODronkaKengFam" target="_blank" class="highlight">Facebook (PTA)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="brutalist-text">Defined in <br><span class="highlight">Pretoria</span>🧪</h1>
+            <p>High-End Brutalist Streetwear Armor. Born in the Capital. Defining the Gauteng Hustle. Day Zero Drop is live. Guaranteed 24HR PTA Delivery. Pick your poison.</p>
+            <a href="#vault" class="btn brutalist-text">Enter The Vault</a>
+        </div>
+    </section>
+
+    <section id="manifesto" class="manifesto">
+        <div class="container manifesto-grid">
+            <div class="manifesto-title">
+                <h2 class="brutalist-text">What are you <br><span class="highlight">Drunk</span> on?🧪</h2>
+            </div>
+            <div class="manifesto-text">
+                <p>O Dronka Keng? isn't just a question; it's a Pretoria state of mind. Born in the streets of the Capital, where the political heat meets the industrial grind. From the shadow of the Union Buildings to the heartbeat of the suburbs, we define the Gauteng hustle.</p>
+                <p>We are drunk on success. We are drunk on culture. We are armored for the administrative capital. Vantablack stealth. Acid Green energy. <span class="highlight">Pretoria Syndicate Original. (Governed by ODK-RSA Enterprise).</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vault" class="vault">
+        <div class="container">
+            <div class="section-header brutalist-text">
+                <h2>Day Zero <span class="highlight">Drop</span>🧪</h2>
+                <p class="highlight brutalist-text">Logistics Hub: Tshwane Metro / Pretoria Central</p>
+            </div>
+            
+            <div class="product-grid">
+                
+                <div class="product-card">
+                    <div class="product-image prod-img-1">
+                        </div>
+                    <div class="product-details">
+                        <h3 class="brutalist-text">ODK-01 "Poison" Tee</h3>
+                        <p class="product-meta brutalist-text">280GSM Heavy Cotton | Brutalist Print | Vantablack/Acid Green</p>
+                        <p class="product-price">R650.00 ZAR</p>
+                        <div class="scarcity-overlay">[RECRUIT ALERT: ODK-01 TEE - 3 UNITS LEFT IN PTA]</div>
+                        <button class="btn brutalist-text">Add to Cart</button>
+                    </div>
+                    <div class="syndicate-review">
+                        <div class="poison-rating">🧪🧪🧪🧪🧪</div>
+                        <p><strong>Verified Syndicate</strong> @Mamelodi_Syndicate: "Quality is insane. Vantablack looks deadly. PTA original."</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image prod-img-2">
+                        </div>
+                    <div class="product-details">
+                        <h3 class="brutalist-text">ODK-02 "Circuit" Hoodie</h3>
+                        <p class="product-meta brutalist-text">450GSM French Terry | Pulsating Acid Green Pattern | Vantablack</p>
+                        <p class="product-price">R1,200.00 ZAR</p>
+                        <div class="scarcity-overlay">[REAL-TIME DEMAND SCARCITY: 4 UNITS LEFT IN PTA]</div>
+                        <button class="btn brutalist-text">Add to Cart</button>
+                    </div>
+                     <div class="syndicate-review">
+                        <div class="poison-rating">🧪🧪🧪🧪🧪</div>
+                        <p><strong>Verified Syndicate</strong> @PTA_Central: "Glows harder than the pictures. Technical lining is legit. Necessary for the Capital heat."</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image prod-img-3">
+                        </div>
+                    <div class="product-details">
+                        <h3 class="brutalist-text">ODK-03 "Concrete Hustle" Cargo Bundle</h3>
+                        <p class="product-meta brutalist-text">Industrial Cotton Shorts | Sling Bag | Vantablack Tactical Vest | Concrete Grey/Tactile Green</p>
+                        <p class="product-price">R1,600.00 ZAR</p>
+                         <div class="scarcity-overlay">[CRITICAL DEMAND: 2 BUNDLES LEFT]</div>
+                        <button class="btn brutalist-text">Add to Cart</button>
+                    </div>
+                     <div class="syndicate-review">
+                        <div class="poison-rating">🧪🧪🧪🧪🧪</div>
+                        <p><strong>Verified Syndicate</strong> @Sosh_Recruit: "Durable. Bag holds everything. Perfect utility for the 012 grind. Guaranteed PTA delivery."</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup">
+        <div class="container signup-content">
+            <h2 class="brutalist-text">Join the <span class="highlight">Syndicate</span>🧪</h2>
+            <p>Day Zero units are critical. The next Pretoria drop is imminent. Secure your Indoctrination alert. We do not restock.</p>
+            
+            <form class="signup-form">
+                <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS (PTA ACCESS 012)" required>
+                <button type="submit" class="btn btn-dark brutalist-text">Recruit Me</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo logo brutalist-text">
+                O DRONKA KENG? RSA
+            </div>
+            <p class="footer-meta brutalist-text">Designed in Pretoria, Gauteng (012). Distributed Globally by the O DRONKA KENG? RSA Syndicate Enterprise. All Rights Reserved. 2026</p>
+            <ul class="social-links brutalist-text">
+                <li><a href="Https://www.facebook.com/ODronkaKengFam" target="_blank" class="highlight">Facebook (ODK-RSA)</a></li>
+                <li><a href="#">Instagram (Coming Soon)</a></li>
+                <li><a href="#" class="brutalist-text">Logistics Support (012 Tracking)</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
