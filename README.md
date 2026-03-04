@@ -36,3 +36,27 @@ Want to join the Syndicate? Reach out to us via the contact form on our website.
 ## License
 All content on this website is property of ODK-RSA. Unauthorized use is prohibited.
 
+---
+
+## Publishing as a GitHub Pages Site
+
+To host this site at `https://O-Dronka-Keng-RSA.github.io`, the repository must be
+named exactly `O-Dronka-Keng-RSA.github.io` and belong to the `O-Dronka-Keng-RSA`
+account (user or organization).
+
+1. **Create or rename** a GitHub repository with that name (via the web UI or
+   `gh repo create`).
+2. **Push the workspace contents** to the new repo, for example:
+   ```bash
+   git remote set-url origin \
+     https://github.com/O-Dronka-Keng-RSA/O-Dronka-Keng-RSA.github.io.git
+   git checkout Master
+   git push origin Master:main
+   ```
+3. The included workflow (`.github/workflows/pages.yml`) deploys the files on
+   every push to `Master`.
+4. Enable Pages in the repository settings (branch `main`/`Master`, root). The
+   site will appear shortly at the user URL.
+
+(Optional) Add a `CNAME` file or configure a custom domain for branding.
+
