@@ -2,3 +2,116 @@
 .settings
 salesforce.schema
 Referenced Packages
+
+# Visual Studio / .NET build artifacts
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+*.vcxproj.user
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vs/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NPM
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Azure DevOps
+*.azurepubxml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# JetBrains IDEs
+*.iws
+*.iml
+*.ipr
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# Build results
+*.dll
+*.exe
+*.ilk
+*.meta
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.nupkg
+*.snk
+*.xsd
+*.bak
+
+# Visual Studio Code workspace
+.vscode/
+
+# Rider and IntelliJ
+.idea/
+*.sln.iml
+
+# Package distribution
+*.7z
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# Lock files
+*.lock
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Android/Java
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.gradle
+.gradle/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Salesforce
+*.sfdx
+.sfdx
+
+# Custom project files
+*.schema
+
+# Local configuration
+local.settings.json
+
+# Ignore any guidelines marker files
+
