@@ -60,3 +60,25 @@ account (user or organization).
 
 (Optional) Add a `CNAME` file or configure a custom domain for branding.
 
+### Project site alternative
+
+If you prefer to keep using the existing
+`ODK--RSA` repository name, the workflow is already configured to publish to
+the `gh-pages` branch. In this case the Pages site will be available at:
+
+```
+https://O-Dronka-Keng-RSA.github.io/ODK--RSA/
+```
+
+The steps are simply:
+
+1. Push the current `Master` branch (or any branch you like) to GitHub. The
+   workflow will automatically update the `gh-pages` branch with the contents
+   of the repo.
+2. In **Settings → Pages** set the source to **gh-pages branch** (root). GitHub
+   will serve from that branch and the site URL above will become active.
+3. Future pushes to `Master` will automatically redeploy via the GitHub Action.
+
+This approach avoids having to rename or create a new repository, but the URL
+includes the repository name.
+
